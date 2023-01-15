@@ -1,0 +1,14 @@
+import rotatescreen as rs
+# pip install rotate-screen
+import time
+# s = rs.get_primary_display()
+# time.sleep(4)
+# for i in range(5):
+#     time.sleep(.5)
+#     s.rotate_to(i*90%360)
+# s.rotate_to(0)
+
+p = rs.get_primary_display()
+for i in range(13):
+    time.sleep(.5)
+    p.rotate_to(i*90 %360)
